@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Masai in News</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+    }
+
+    .news-section {
+      background-color: #eef2f7;
+      padding: 40px 20px;
+    }
+
+    .news-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .news-container h1 {
+      margin-bottom: 20px;
+      font-size: 30px;
+      color: #080808;
+    }
+
+    .news-items {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .news-item {
+      background-color: #ffffff;
+      padding: 15px;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .news-item>div.pic {
+      width: 80%;
+      height: 185px;
+      border: 1px solid;
+      margin-bottom: 15px;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .news-item>div.pic img {
+      width: 90%;
+      height: auto;
+      margin-bottom: 15px;
+    }
+
+    .news-content {
+      text-align: center;
+    }
+
+    .news-content .date {
+      font-size: 12px;
+      color: blue;
+      margin-bottom: 5px;
+    }
+
+    .news-content .title {
+      font-size: 16px;
+      color: #0a0a0a;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .news-content .description {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .see-more {
+      display: block;
+      margin: 20px auto 0;
+      padding: 15px;
+      font-size: 14px;
+      color: red;
+      background-color: transparent;
+      border: 1px solid red;
+      border-radius: 4px;
+      cursor: pointer;
+      text-transform: uppercase;
+      height: 45px;
+      width: 120px;
+    }
+
+    .see-more:hover {
+      background-color: #ebb5b5;
+    }
+
+    .investors-section {
+      background-color: #ffffff;
+      padding: 40px 20px;
+    }
+
+    .investors-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .investors-container h1 {
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: #333;
+    }
+
+    .investors-items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 30px;
+
+    }
+
+    .investor-item img {
+      max-width: 400px;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="news-section">
+    <div class="news-container">
+      <h1>Masai in News</h1>
+      <div class="news-items">
+        <div class="news-item">
+          <div class="pic">
+            <img src="https://images.moneycontrol.com/images/common/headfoot/logo.png?impolicy=mchigh"
+              alt="MoneyControl">
+          </div>
+          <div class="news-content">
+            <p class="date">26 Oct 2021</p>
+            <p class="title">Kunal Shah, Vijay Shekhar Sharma, Amrish Rau among 21 angel investors in Masai School</p>
+            <p class="description">Masai School is aiming to expand to 20 smaller cities by March 2022 and exp...</p>
+          </div>
+        </div>
+        <div class="news-item">
+          <div class="pic">
+            <img src="https://img.etimg.com/photo/msid-76920425,quality-100/et-logo.jpg" alt="The Economic Times">
+          </div>
+          <div class="news-content">
+            <p class="date">21 Dec 2021</p>
+            <p class="title">Edtech startup Masai School acquires data analytics firm Prepleaf for $1 million.</p>
+            <p class="description">With their latest acquisition, Masai moves one step closer to becoming Indi...</p>
+          </div>
+        </div>
+        <div class="news-item">
+          <div class="pic">
+            <img
+              src="https://apiexcellent.com/images/digitalpr/product/vc-circle-digital-pr-digitalpr10172-digitalpr10172.webp"
+              alt="VCCIRCLE">
+          </div>
+          <div class="news-content">
+            <p class="date">18 Aug 2020</p>
+            <p class="title">Unitus Ventures leads pre-Series A funding for coding-focussed Masai School</p>
+            <p class="description">Software coding platform Masai School has raised $2.5 million (Rs 18.6 cror...</p>
+          </div>
+        </div>
+      </div>
+      <button class="see-more">See More </button>
+    </div>
+  </div>
+
+  <div class="investors-section">
+    <div class="investors-container">
+      <h1 style="font-size: 35px;">Our Investors (Who believed in us)</h1>
+      <div class="investors-items">
+        <div class="investor-item">
+          <img src="https://www.masaischool.com/images/our-investors/india-q-borderless.svg" alt="IndiaQuotient">
+        </div>
+        <div class="investor-item">
+          <img src="https://www.masaischool.com/images/our-investors/omidyar-borderless.svg"
+            alt="Omidyar Network India">
+        </div>
+        <div class="investor-item">
+          <img src="https://www.masaischool.com/images/our-investors/capria-logo.svg" alt="Capria">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
